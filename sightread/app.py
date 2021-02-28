@@ -37,7 +37,7 @@ def singnotes(randnotes, verbose=False):
         playsound(mp3file)
 
 
-if __name__ == "__main__":  
+def main():
     # 676311771
     # 556517
     info('Keep Practicing!\n')
@@ -70,3 +70,7 @@ if __name__ == "__main__":
         else:
             randnotes = iptnotes
             singnotes(randnotes, verbose=True)
+
+
+if __name__ == "__main__":  
+    main()
